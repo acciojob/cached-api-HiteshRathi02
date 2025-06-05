@@ -27,7 +27,7 @@ const App = () => {
       {loading && <div>Loading...</div> }
       <ul>
       {
-  data.map((item,i)=> 
+  data.map((item)=> 
   <li key={item.id}>
   <h4>{item.title}</h4>
   <p>{item.body}</p>
